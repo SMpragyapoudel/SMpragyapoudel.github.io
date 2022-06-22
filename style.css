@@ -1,2 +1,13 @@
 .navbar
 {font-family: 'Open Sans', sans-serif;}
+
+.about-me{
+	font-size: 5em;
+	font-family: 'Rubik Moonrocks', cursive;
+	color:pink;
+}
+
+.pink{
+	font-family: 'Rubik Moonrocks', cursive;
+	color:pink;
+}
