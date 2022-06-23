@@ -30,3 +30,13 @@
 font-family: 'Joan', serif;
 font-size: 1.3em;
 }
+
+.fa-book,.fa-certificate{
+	font-size: 3em;
+	text-align: center;
+}
+
+.it-training{
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5em
+}
