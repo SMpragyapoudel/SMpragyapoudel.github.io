@@ -12,7 +12,7 @@
 	color:pink;
 }
 
-.footer {
+.footer , .logo-color {
 	background: black;
 	color: white;
 
@@ -20,5 +20,9 @@
 
 .footer .fa {
 	color: white;
+	font-size:2em;
+}
+.logo-color {
+	font-size:1.5em;
 }
 
