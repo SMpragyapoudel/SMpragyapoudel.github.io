@@ -45,3 +45,12 @@ font-size: 1.3em;
 	font-family: 'Bebas Neue', cursive;
 	font-size:1.5em;
 }
+
+
+@media only screen and (max-width: 1900px) {
+  .carousel-1{
+  	width:100%;
+  }
+
+}
+
