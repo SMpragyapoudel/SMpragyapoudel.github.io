@@ -2,7 +2,7 @@
 {font-family: 'Open Sans', sans-serif;}
 
 .about-me{
-	font-size: 5em;
+	font-size: 10vw;
 	font-family: 'Rubik Moonrocks', cursive;
 	color:pink;
 }
@@ -20,39 +20,48 @@
 
 .footer .fa {
 	color: white;
-	font-size:2em;
+	font-size:2rem;
 }
 .logo-color {
-	font-size:1.5em;
+	font-size:1.5rem;
 }
 
 .email{
 font-family: 'Joan', serif;
-font-size: 1.3em;
+font-size: 1.3rem;
 }
 
 .fa-book,.fa-certificate,.fa-graduation-cap,.fa-home,.fa-building{
-	font-size: 3em;
+	font-size: 3rem;
 	text-align: center;
 }
 
 .it-training{
 	font-family: 'Dancing Script', cursive;
-	font-size: 1.5em
+	font-size: 1.5rem
 }
 
 .html {
 	font-family: 'Bebas Neue', cursive;
-	font-size:1.5em;
+	font-size:1.5rem;
+}
+img{
+	width: 20vw
 }
 
-
-@media only screen and (max-width: 1900px) {
-  .carousel-1{
-  	/*width:100%;*/
-  }
-
+@media (orientation:landscape){
+	.carousel-1 {
+		width: 100vw
+	}
 }
 
+ @media (orientation:portrait){
+	.carousel-1 img{
+		width: 100vw
+	}
+}
 
-
+.img-fluid-1 {
+	width: 100%;
+	height: auto
+ }
