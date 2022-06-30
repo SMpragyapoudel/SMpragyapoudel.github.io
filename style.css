@@ -69,3 +69,10 @@ img{
   	margin-left: 30vw;
   }
 }
+
+.navbar {
+	background: transparent;
+}
+.solid{
+	background: white;
+}
