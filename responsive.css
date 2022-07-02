@@ -1,0 +1,109 @@
+@media (min-width: 1200px){ 
+	.skills-img {
+  	display: flex;
+  	flex-direction: row;
+  	margin:0;
+
+  }
+  .about {
+		padding: 5vw;
+		 text-align: justify;
+		 display: flex;
+		 flex-direction: row
+	}
+	.experience,.education {
+  	margin:2px;
+  	padding:10px;
+  	height: 100%
+  }
+  .flex-contaainer{
+  	display: flex;
+  	flex-direction:row;
+  	margin: 0;
+  	max-width: 100%
+  }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .skills-img {
+  	display: flex;
+  	flex-direction: row;
+  	margin:0;
+  }
+  .experience,.education {
+  	margin:2px;
+  	padding:10px;
+  	height: 100%
+  }
+  .flex-contaainer{
+  	display: flex;
+  	flex-direction:row;
+  	margin: 0;
+  	max-width: 100%
+  }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .about {
+		padding: 12vw;
+		 text-align: justify;
+		 display: flex;
+		 flex-direction: row
+	}
+  .flex-container {
+  	display: flex;
+  	flex-direction: row
+  }
+
+  .skills-img {
+  	display: flex;
+  	flex-direction: row;
+  	margin:0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ 	.about {
+		padding: 12vw;
+		 text-align: justify;
+	}
+	.flex-contaainer{
+  	display: flex;
+  	flex-direction:row;
+  	margin: 0;
+  	max-width: 100%
+  }
+  .experience,.education {
+  	margin:2px;
+  	padding:10px;
+  	height: 130vh
+  }
+  .skills-img {
+  	display: flex;
+  	flex-direction: row;
+  	margin:0;
+  }
+ 
+  }
+
+@media (max-width: 575.98px) { 
+	.about {
+		padding: 12vw;
+		 text-align: justify;
+	}
+
+	.cv {
+	max-width: 30vw;
+	padding:3vh 4vw;
+	}
+
+	.my-job-1 {
+		display: flex;
+		flex-direction: column;
+		text-align:  center;
+		padding: 2vw;
+		box-sizing: border-box;
+	}
+
+}
