@@ -45,19 +45,19 @@
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="sm.jpg" style="width:100%">
+  <img src="pen.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="img1.jpg" style="width:100%">
+  <img src="laptop-bg.jpeg" style="width:100%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="img2.jpg" style="width:100%">
+  <img src="main.jpg" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
 
@@ -190,7 +190,7 @@
 			<div class="counter">
 				 <a href="station-counter/index.html">COUNTER</a>
 			</div>
-			<div>
+			<div class="rehdon">
 				<a href="https://rehdon.edu.np/">rehdon college</a>
 			</div>	
 			<div>
@@ -229,24 +229,24 @@
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-    <img src="img8.jpg" style="width:100%">
-    <img src="img7.jpg" style="width:100%">
+    <img src="nail-polish.jpg" style="width:100%">
+    <img src="laptop-bg.jpeg" style="width:100%">
     
     
   </div>
   <div class="column">
-    <img src="img6.jpg" style="width:100%">
-    <img src="img5.jpg" style="width:100%">
+    <img src="main.jpg" style="width:100%">
+    <img src="pen.jpg" style="width:100%">
     
   </div>  
   <div class="column">
     
-    <img src="img3.jpg" style="width:100%">
+    <img src="headphone.jpg" style="width:100%">
     
   </div>
   <div class="column">
     
-    <img src="sm.jpg" style="width:100%">
+    <img src="flower.jpg" style="width:100%">
   </div>
 </div>
 
@@ -307,12 +307,14 @@
 				</div>
 			</div>
 			<div class="forms" >
-				 <input type="name" name="name" value="name">
-				<input type="email" name="email" value="email">
+				<form class="contact_form">
+				 <input class="name" type="name" name="name" value="name">
+				<input class="email" type="email" name="email" value="email">
 				<br>
-				<input type="message" name="message" value="message">
+				<textarea class="msg" type="message" name="message" value="message"></textarea>
 				<br>
-				<input type="subject" name="">
+				<input type="submit" name="">
+				</form>
 
 			</div>
 		</div>
@@ -341,7 +343,8 @@
 	</div>
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	<script type="text/javascript" src="script.js">
-		
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>	
 	</script>
 </body>
 </html>
