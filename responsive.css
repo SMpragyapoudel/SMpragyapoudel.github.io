@@ -105,5 +105,7 @@
 		padding: 2vw;
 		box-sizing: border-box;
 	}
-
+  .topnav a,.education {
+  font-size:2.5rem;
+}
 }
