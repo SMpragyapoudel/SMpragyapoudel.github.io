@@ -405,3 +405,9 @@ progress {
 .blackjackgame ,.calculator ,.counter{
   padding-right: 2vw;
 }
+.pading-about {
+  padding-right: 2vw;
+}
+#myTopnav a{
+  padding: 3vw
+}
